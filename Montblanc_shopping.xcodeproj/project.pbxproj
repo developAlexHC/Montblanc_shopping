@@ -14,6 +14,7 @@
 		FA700B8B1FB048E3003DC7F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA700B891FB048E3003DC7F4 /* LaunchScreen.storyboard */; };
 		FA700B961FB048E3003DC7F4 /* Montblanc_shoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA700B951FB048E3003DC7F4 /* Montblanc_shoppingTests.swift */; };
 		FA700BA11FB048E3003DC7F4 /* Montblanc_shoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA700BA01FB048E3003DC7F4 /* Montblanc_shoppingUITests.swift */; };
+		FAB569EA1FB051960032B17E /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB569E91FB051960032B17E /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA700B9C1FB048E3003DC7F4 /* Montblanc_shoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Montblanc_shoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA700BA01FB048E3003DC7F4 /* Montblanc_shoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Montblanc_shoppingUITests.swift; sourceTree = "<group>"; };
 		FA700BA21FB048E3003DC7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB569E91FB051960032B17E /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FA700B801FB048E3003DC7F4 /* AppDelegate.swift */,
 				FA700B821FB048E3003DC7F4 /* ViewController.swift */,
+				FAB569E91FB051960032B17E /* ProductsTableViewController.swift */,
 				FA700B841FB048E3003DC7F4 /* Main.storyboard */,
 				FA700B871FB048E3003DC7F4 /* Assets.xcassets */,
 				FA700B891FB048E3003DC7F4 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA700B831FB048E3003DC7F4 /* ViewController.swift in Sources */,
+				FAB569EA1FB051960032B17E /* ProductsTableViewController.swift in Sources */,
 				FA700B811FB048E3003DC7F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
